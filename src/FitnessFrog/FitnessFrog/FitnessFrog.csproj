@@ -88,11 +88,19 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Script\bootstrap-datepicker.min.js" />
+    <Content Include="Script\bootstrap.js" />
+    <Content Include="Script\bootstrap.min.js" />
+    <Content Include="Content\bootstrap-datepicker3.min.css" />
     <Content Include="Content\site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="img\check.png" />
     <Content Include="img\x.png" />
+    <None Include="Script\jquery-1.10.2.intellisense.js" />
+    <Content Include="Script\jquery-1.10.2.js" />
+    <Content Include="Script\jquery-1.10.2.min.js" />
+    <Content Include="Script\modernizr-2.6.2.js" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -113,6 +121,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="Script\jquery-1.10.2.min.map" />
     <None Include="packages.config" />
     <Content Include="Views\Entries\Add.cshtml" />
     <Content Include="Views\Entries\Delete.cshtml" />
