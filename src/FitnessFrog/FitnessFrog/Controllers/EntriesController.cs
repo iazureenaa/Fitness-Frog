@@ -123,7 +123,6 @@ namespace Treehouse.FitnessFrog.Controllers
         [HttpPost]
         public ActionResult Delete(int id)
         {
-            // TODO Delete the entry
             _entriesRepository.DeleteEntry(id);
             return RedirectToAction("Index");
         }
