@@ -58,7 +58,8 @@ namespace FitnessFrog.Models
         /// <summary>
         /// The date of the entry. Should not include a time portion.
         /// </summary>
-        [DisplayFormat(DataFormatString = "{0:dd/mm/yyyy}", ApplyFormatInEditMode = true)]
+        [DisplayFormat(DataFormatString = "{0:MM/dd/yyyy}", ApplyFormatInEditMode = true)]
+        [DataType(DataType.Date)]
         public DateTime Date { get; set; }
 
         /// <summary>
